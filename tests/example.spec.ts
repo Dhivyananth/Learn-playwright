@@ -6,3 +6,8 @@ test('has check', async ({ page }) => {
   // Expect a title "to contain" a substring.
 });
 
+test('has check 2', async ({ page }) => {
+  await page.goto('https://www.google.com');
+
+  // Expect a title "to contain" a substring.
+});
